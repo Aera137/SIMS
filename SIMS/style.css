@@ -16,6 +16,10 @@
     --color-dark-variant:#677483;
     --color-background:#f6f6f9;
 
+    --light: #F9F9F9;
+    --dark: #342E37;
+    --grey: #eee; 
+
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
     --border-radius-2: 0.8rem;
@@ -158,7 +162,44 @@ aside .close {
 }
 
 /*========= SIDEBAR =========*/
-
+aside .sidebar form {
+	max-width: 400px;
+	width: 100%;
+    margin-top: 0.1rem;
+	margin-right: auto;
+    margin-bottom: 1rem;
+    
+}
+aside .sidebar form .form-input {
+	display: flex;
+	align-items: center;
+	height: 36px;
+}
+aside .sidebar form .form-input input {
+	flex-grow: 1;
+	padding: 0 16px;
+	height: 100%;
+	border: none;
+	background: var(--grey);
+	border-radius: 36px 0 0 36px;
+	outline: none;
+	width: 100%;
+	color: var(--dark);
+}
+aside  .sidebar form .form-input button {
+	width: 36px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--color-primary);
+	color: var(--light);
+	font-size: 18px;
+	border: none;
+	outline: none;
+	border-radius: 0 36px 36px 0;
+	cursor: pointer;
+}
 aside .sidebar {
     display: flex;
     flex-direction: column;
@@ -166,6 +207,8 @@ aside .sidebar {
     position: relative;
     top: 3rem;
 }
+
+
 
 aside h3 {
     font-weight: 500;
@@ -421,6 +464,7 @@ main .recent-orders a{
     gap: 2rem;
     text-align: right;
 }
+
 
 /*=================== RECENT UPDATES ===================*/
 
