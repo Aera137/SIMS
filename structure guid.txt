@@ -1,0 +1,39 @@
+SIMS/
+│
+├── assets/
+│   └── icons/
+│   └── images/
+│
+├── includes/
+│   ├── footer.php
+│   ├── header.php
+│   └── sidebar.php
+│
+├── pages/
+│   ├── analytics.php
+│   ├── dashboard.php
+│   ├── inventory.php
+│   ├── rental-boxes.php
+│   ├── sales.php
+│   └── settings.php
+│
+├── scripts/
+│   ├── analytics.js
+│   ├── dashboard.js
+│   ├── index.js
+│   ├── inventory.js
+│   ├── rental-boxes.js
+│   ├── sales.js
+│   └── settings.js
+│
+├── styles/
+│   ├── analytics.css
+│   ├── dashboard.css
+│   ├── inventory.css
+│   ├── rental-boxes.css
+│   ├── sales.css
+│   ├── settings.css
+│   └── style.css
+│
+├── index.html
+└── README.md
