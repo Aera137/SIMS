@@ -1,1 +1,7 @@
 /***********************| ALL RENTAL-BOXES STYLES ONLY HERE |***************************/
+.rental-box-main-container{
+    width:100%;
+    height:auto;
+    border:1px solid;
+    padding-left:230px;
+}

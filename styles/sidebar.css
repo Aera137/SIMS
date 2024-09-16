@@ -1,0 +1,45 @@
+.sidebar-container {
+    border: 1px solid; /*Temporary*/
+    width: 230px;
+    height: 88vh;
+    padding: 20px 0px 0px 35px;
+    position: fixed;
+    background-color: #ffffff;
+}
+.menu-item{
+    list-style: none;
+    color: #7D8DA1;
+}
+.menu-item a {
+    padding: 15px 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    padding-left: 10px;
+    transition: ease 0.4s;
+    cursor: pointer;
+    color: #7D8DA1;
+    font-size:0.9rem; 
+}
+
+.menu-item a:hover {
+    padding-left: 25px;
+    color: #7380EC;
+}
+
+.menu-item a.active {
+    color: #7380EC;
+    border-left: 2px solid;
+    border-color: #7380EC;
+}
+
+.menu-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: inherit; 
+}
+
+.menu-item a:hover {
+    color: #7380EC;
+}

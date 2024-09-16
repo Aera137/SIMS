@@ -1,5 +1,14 @@
  <!-- | ALL DASHBOARD CONTENT ONLY HERE |-->
+ <!-- | dashboard.php file |-->
 
-<!-- | TEMPORARY |-->
- <link rel="stylesheet" href="../styles/dashboard.css">  <!-- | this is how to link css |-->
- <script src="../scripts/dashboard.js"></script>  <!-- | this is how to link js |-->
+<?php 
+    $page = 'dashboard'; 
+
+    include '../includes/header.php'; 
+    include '../includes/topNav.php'; 
+    include '../includes/sidebar.php'; 
+?>
+  <!-- | Temporary |-->
+<div class="dashboard-main-container">
+    <h1>Dashboard</h1>
+</div>

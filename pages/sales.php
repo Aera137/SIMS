@@ -1,5 +1,14 @@
 <!-- | ALL SALES CONTENT ONLY HERE |-->
 
-<!-- | TEMPORARY |-->
-<link rel="stylesheet" href="../styles/sales.css">  
-<script src="../scripts/sales.js"></script>  
+<?php 
+    $page ='sales'; 
+
+    include '../includes/header.php';
+    include '../includes/topNav.php';
+    include '../includes/sidebar.php';
+?>
+
+
+<div class="sales-main-container">
+    <h1>Sales</h1>
+</div>

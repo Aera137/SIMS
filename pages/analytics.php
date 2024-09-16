@@ -1,5 +1,15 @@
 <!-- | ALL ANALYTICS CONTENT ONLY HERE |-->
 
-<!-- | TEMPORARY |-->
-<link rel="stylesheet" href="../styles/analytics.css">  
-<script src="../scripts/analytics.js"></script>  
+<?php 
+    $page ='analytics';
+
+    include '../includes/header.php';
+    include '../includes/topNav.php';
+    include '../includes/sidebar.php';
+?>
+
+
+
+<div class="analytics-main-container">
+    <h1>analytics</h1>
+</div>
