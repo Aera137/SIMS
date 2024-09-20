@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../styles/topNav.css">
     <link rel="stylesheet" href="../styles/sidebar.css">
 
+    <script src="../scripts/sidebar.js"></script>
+
     <?php
     // Get the current page's filename
     $current_page = basename($_SERVER['PHP_SELF']);

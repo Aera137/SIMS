@@ -20,8 +20,8 @@
     cursor: pointer;
     color: #7D8DA1;
     font-size:0.9rem; 
+    text-decoration: none;
 }
-
 .menu-item a:hover {
     padding-left: 25px;
     color: #7380EC;
@@ -29,17 +29,8 @@
 
 .menu-item a.active {
     color: #7380EC;
-    border-left: 2px solid;
+    border-left: 6px solid;
     border-color: #7380EC;
-}
-
-.menu-item a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: inherit; 
-}
-
-.menu-item a:hover {
-    color: #7380EC;
+    background-color: #E2E3F0;
+    padding-left: 25px;
 }
