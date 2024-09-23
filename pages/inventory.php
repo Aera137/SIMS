@@ -1,13 +1,12 @@
 <!-- | ALL INVENTORY CONTENT ONLY HERE |-->
 
 <?php 
-    $page ='inventory'; 
-   
-    include '../includes/header.php';
-    include '../includes/topNav.php';
-    include '../includes/sidebar.php';
+    $page ='inventory'; //ASSIGNS THE NAME OF THE PAGE. THIS PAGE IS NAMED 'INVENTORY' AND IS USED IN THE HEADER.PHP FILE.
+    require '../includes/header.php'; //REQUIRES THE HEADER.PHP, FOR YOU CAN APPLY THE CSS,SCRIPT,SIDEBAR, AND TOPNAV ON THIS PAGE.
 ?>
 
-<div class="inventory-main-container">
+<main class="main-content-container"><!-- | THE STYLES FOR THIS CONTAINER ARE DEFINED IN GLOBAL.CSS TO STANDARDIZE THE STYLE OF THE MAIN CONTAINER ACROSS ALL PAGES |-->
+    <!-- | your code here |-->
     <h1>Inventory</h1>
-</div>
+
+</main>

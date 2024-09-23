@@ -1,10 +1,15 @@
 .sidebar-container {
     border: 1px solid; /*Temporary*/
+    border-color:#dfdfdf;
     width: 230px;
     height: 88vh;
     padding: 20px 0px 0px 35px;
     position: fixed;
     background-color: #ffffff;
+    position:fixed;
+    margin-top:12vh;
+    overflow-y: auto;
+    
 }
 .menu-item{
     list-style: none;
@@ -33,4 +38,8 @@
     border-color: #7380EC;
     background-color: #E2E3F0;
     padding-left: 25px;
+}
+
+#logout-button{
+    margin-top: 250px;;
 }

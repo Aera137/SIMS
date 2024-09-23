@@ -1,15 +1,13 @@
-<!-- | ALL ANALYTICS CONTENT ONLY HERE |-->
+<!-- | ALL ANALYTICS CONTENT GOES HERE |-->
 
 <?php 
-    $page ='analytics';
-
-    include '../includes/header.php';
-    include '../includes/topNav.php';
-    include '../includes/sidebar.php';
+    $page = 'analytics'; //ASSIGNS THE NAME OF THE PAGE. THIS PAGE IS NAMED 'ANALYTICS' AND IS USED IN THE HEADER.PHP FILE.
+    require '../includes/header.php'; //REQUIRES THE HEADER.PHP TO APPLY THE CSS, SCRIPTS, SIDEBAR, AND TOP NAVIGATION.
 ?>
 
 
-
-<div class="analytics-main-container">
-    <h1>analytics</h1>
-</div>
+<main class="main-content-container"><!-- | THE STYLES FOR THIS CONTAINER ARE DEFINED IN GLOBAL.CSS TO STANDARDIZE THE STYLE OF THE MAIN CONTAINER ACROSS ALL PAGES |-->
+    <!-- | your code here |-->
+    <h1>Analytics</h1>
+    
+</main>

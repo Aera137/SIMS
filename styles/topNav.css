@@ -6,6 +6,9 @@
     justify-content: space-between; 
     align-items: center;
     padding: 0 20px;  
+    position:fixed;
+    border:1px solid;
+    border-color:#dfdfdf;
 }
 #logo {
     height: 80px;
@@ -36,18 +39,26 @@
     color: #363949;
 }
 /* Admin Dropdown styling */
-.admin-dropdown {
+.admin {
     position: relative;
-    display: inline-block;
+    display:flex;
+    gap:10px;
+   
 }
-.admin-btn {
-    background-color: #f8f9fa;
-    color: #333;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+.admin-dropdown p{  
+    width:85px;
+    color:#636363;  
+}
+.admin-name{
+    font-weight: bold;
+    color:#000000;
+    display:inline-block;
+}
+.admin-txt{
+    display:block;
+    margin-left:25px;
+    color:#636363;
+
 }
 #profile{
     height:30px;
@@ -55,35 +66,4 @@
     margin-right:5px;
 }
 
-.admin-btn .material-symbols-rounded {
-    vertical-align: middle;
-}
 
-.admin-btn:hover {
-    background-color: #e2e6ea;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    border-radius: 5px;
-}
-.dropdown-content a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-bottom: 1px solid #e2e6ea;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.admin-dropdown:hover .dropdown-content {
-    display: block;
-}
